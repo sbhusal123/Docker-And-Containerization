@@ -16,7 +16,7 @@ The hypervisor enables a computer to separate its operating system from its core
   - also known as a virtual machine monitor, is a process that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, like memory and processing.
   - Of Two Types: **Type 1 : Bare Metal VM HyperVisor**, **Type 2: Hosted VM Hypervisor**
   - **Type 1(Bare Metal):** runs directly on host hardware. The term bare metal refers to direct access to the hardware.
-  - **Type 2(Hosted VM Hypervisor):** 
+  - **Type 2(Hosted VM Hypervisor):** runs on the top of host OS. Hosted VM access the hardware of host machine by commmunicating with host's OS.
   
 <img src="https://vapour-apps.com/wp-content/uploads/2016/05/figure2.gif"></img>
 

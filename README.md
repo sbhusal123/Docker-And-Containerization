@@ -54,8 +54,12 @@ RUN mkdir /app
 # set a working directory
 WORKDIR /app
 ```
-Then build the image using ``docker build .``
+Then build the image using: **docker build .**
 
-**Console Output:**
+![Console output](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/images/console%20output%201.png?raw=true)
 
-![COnsole output](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/images/console%20output%201.png?raw=true)
+
+Above is the output printed when we executed docker file. Different hashes are asigned in different steps during the execution of each command in the DockerFile.
+
+
+

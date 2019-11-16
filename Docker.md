@@ -18,7 +18,3 @@
 - Can be public docker registry([docker hub](https://hub.docker.com/)) or private docker registry.
 - When **pull command** is executed, required docker image is pulled from the configured registry.
 - When **push command** is executed, docker image is stored on configured registry.
-
-
-- 
-

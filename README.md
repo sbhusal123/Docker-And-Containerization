@@ -1,6 +1,6 @@
 # 1. Introduction to Virtualization and Containerization 
 
-**Virtualization**
+## i. Virtualization
   - process of running a virtual instance of a computer system in a layer abstracted from the actual hardware
   - virtualization or platform virtualization refers to the creation of a virtual machine that acts like a real computer with an operating system
   

@@ -4,9 +4,9 @@
   - process of running a virtual instance of a computer system in a layer abstracted from the actual hardware
   - virtualization or platform virtualization refers to the creation of a virtual machine that acts like a real computer with an operating system
   
-<img src="https://www.researchgate.net/profile/Umar_Farooq_Minhas/publication/242077512/figure/fig2/AS:282710602993666@1444414868359/Hosted-Virtual-Machine-Architecture.png"></img>
+![Virtua Machine Architecture](https://www.researchgate.net/profile/Umar_Farooq_Minhas/publication/242077512/figure/fig2/AS:282710602993666@1444414868359/Hosted-Virtual-Machine-Architecture.png)
 
-<b>Fig: Typical Virtual Machine Architecture</b>
+**Fig: Typical Virtual Machine Architecture**
 
 **Function of HyperVisor :** 
 
@@ -18,8 +18,15 @@ The hypervisor enables a computer to separate its operating system from its core
   - **Type 1(Bare Metal):** runs directly on host hardware. The term bare metal refers to direct access to the hardware.
   - **Type 2(Hosted VM Hypervisor):** runs on the top of host OS. Hosted VM access the hardware of host machine by commmunicating with host's OS.
   
-<img src="https://vapour-apps.com/wp-content/uploads/2016/05/figure2.gif"></img>
+![https://vapour-apps.com/wp-content/uploads/2016/05/figure2.gif] (Type 1 and Type 2 Hypervisor Architecture)
 
 <p><b><i>Fig: Type 1 and Type 2 Hypervisor Architecture<i></p>
+  
+## Containerizatoin ##
+
+<li>
+  <ul>asdasd </ul>
+</li>
+
 
   

@@ -17,10 +17,10 @@ The hypervisor enables a computer to separate its operating system from its core
   - Of Two Types: **Type 1 : Bare Metal VM HyperVisor**, **Type 2: Hosted VM Hypervisor**
   - **Type 1(Bare Metal):** runs directly on host hardware. The term bare metal refers to direct access to the hardware.
   - **Type 2(Hosted VM Hypervisor):** runs on the top of host OS. Hosted VM access the hardware of host machine by commmunicating with host's OS.
-  
-![https://vapour-apps.com/wp-content/uploads/2016/05/figure2.gif] (Type 1 and Type 2 Hypervisor Architecture)
 
-<p><b><i>Fig: Type 1 and Type 2 Hypervisor Architecture<i></p>
+![https://vapour-apps.com/wp-content/uploads/2016/05/figure2.gif](Type 1 and Type 2 Hypervisor Architecture)
+
+***Fig: Type 1 and Type 2 Hypervisor Architecture***
   
 ## Containerizatoin ##
 

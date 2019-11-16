@@ -22,3 +22,4 @@ The hypervisor enables a computer to separate its operating system from its core
 
 <p><b><i>Fig: Type 1 and Type 2 Hypervisor Architecture<i></p>
 
+  

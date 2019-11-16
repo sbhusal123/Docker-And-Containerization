@@ -61,5 +61,14 @@ Then build the image using: **docker build .**
 
 Above is the output printed when we executed docker file. Different hashes are asigned in different steps during the execution of each command in the DockerFile.
 
+## Virtual Machine Vs  Container
+
+![VM vs Container](https://www.bogotobogo.com/DevOps/Docker/images/Docker_vs_Virtual_Machine/whatisdocker.png)
+
+
+
+
+
+
 
 

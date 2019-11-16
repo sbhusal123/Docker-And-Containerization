@@ -35,7 +35,27 @@ The hypervisor enables a computer to separate its operating system from its core
 > Analogy:  Images are like classes and Container are the instance. 
 
 
-  
-  
-  
-  
+![Container/ Image Hierarchy](https://docs.docker.com/storage/storagedriver/images/container-layers.jpg)
+
+***Fig: Container - Image Layer Hierarchy***
+
+- Here, each layers(**91e54df1179, ...., d3a1f33e8a5a**) is provided with unique id. Those are created when the command in the Dockerfile are executed.
+- 
+``Note: Image Layer is generally accessible to read and open while all the modifications are made on the container layer``
+
+**Example: Creating a Docker Container with python image**
+```DockerFile
+# pull the image from the channel
+FROM python:3.7-alpine
+
+# create a directory by runing command under container
+RUN mkdir /app
+
+# set a working directory
+WORKDIR /app
+```
+Then build the image using ``docker build .``
+
+**Console Output:**
+
+![COnsole output](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/images/console%20output%201.png?raw=true)

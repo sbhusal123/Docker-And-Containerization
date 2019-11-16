@@ -23,5 +23,19 @@ The hypervisor enables a computer to separate its operating system from its core
 
 ***Fig: Type 1 and Type 2 Hypervisor Architecture***
 
+## ii. Container
+  - A lightweight alternative to full machine virtualization that involves encapsulating an application in a container with its own operating environment.
+  - Allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+  - Conainer are the instance of the images.
 
+**Container Images / Images**
+  - container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+  - Instance of those images are called as container.
+  
+> Analogy:  Images are like classes and Container are the instance. 
+
+
+  
+  
+  
   

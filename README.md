@@ -21,3 +21,7 @@ The hypervisor enables a computer to separate its operating system from its core
 <img src="https://vapour-apps.com/wp-content/uploads/2016/05/figure2.gif"></img>
 
 <p><b><i>Fig: Type 1 and Type 2 Hypervisor Architecture<i></p>
+
+## ii. Containerization
+
+  - lightweight alternative to full machine virtualization that involves encapsulating an application in a container with its own operating environment. 

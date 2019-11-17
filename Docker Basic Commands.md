@@ -17,4 +17,18 @@
 | docker login | Allows logging in to docker registry.  Need to create account at docker hub. |
 
 
+## ii. Images Command
+| Command  | Description |
+|----------------------------------|-------------------------------------|
+| docker images | Shows the list of all the images.  |
+| docker pull <image> | Pulls the <image> from the registry |
+| docker rmi <image_name/image_id> | Removes the image.(Not a container) |
 
+## iii. Containers Command
+| Command  | Description |
+|------------------------------|------------------------------------------------------------------------------|
+| docker ps | Shows the containers. |
+| docker run <image/image id> | Runs the container inside the image. |
+| docker run -it <image/name>  | Runs the docker container in interactive mode.(only if  terminal is present) |
+| docker start <container> | Starts stopped container |
+| docker stop <container> | Stops runing container. |

@@ -13,8 +13,8 @@
     - [Basic Commands](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Docker%20Basic%20Commands.md#i-basic-commands). ``docker --help``
     - [Images Command](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Docker%20Basic%20Commands.md#ii-images-command). ``docker images --help``
     - [Docker System Command](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Docker%20Basic%20Commands.md#iv-docker-system-command). ``docker system --help``
-    - All the commands can be explored using ``docker help``
-    - For help with specific command ``docker [COMMAND] help``
+    - All the commands can be explored using ``docker --help``
+    - For help with specific command ``docker [COMMAND] --help``
 
 4. [Docker Image](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Docker%20Images.md#docker-image)
     - [Pull the docker image](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Docker%20Images.md#pull-the-image)

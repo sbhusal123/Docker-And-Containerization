@@ -16,6 +16,7 @@
 | docker [COMMAND] --help | Shows the description of command and available  options and flags. |
 | docker login | Allows logging in to docker registry.  Need to create account at docker hub. |
 
+**docker [COMMAND] --help**
 
 ## ii. Images Command:
 | Command  | Description |

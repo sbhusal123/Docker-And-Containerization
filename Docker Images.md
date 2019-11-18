@@ -15,9 +15,9 @@
 - **Image History:** ``docker image history <image_name>``
 - **Runing untntu  image in interactive mode:** ``docker run image --name <Arbitart_name> -it <image_name>``
 - **inspect the image** ``docker inspect <image_name>``
-- **Remove image** ``docker image rm <image_name/id>`` or to **forecfully remove** ``docker image rm -f <image_name/id>``
+- **Remove image** ``docker image rmi <image_name/id>`` or to **forecfully remove** ``docker image rmi -f <image_name/id>``
 
-> Dangling images are the images whose instance doesn't exists.
+**Note:** ``docker rm `` removes the containers.
 
 
 

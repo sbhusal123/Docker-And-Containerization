@@ -21,6 +21,17 @@
 - **Stop containers:** ``docker stop <container_id/name>``
 - **Start container:** ``docker stop <container_id/name>``
 
+## Additional Commands:
+**Status Of Container:**(cpu,m/m usage) ``docker stats <container>``
+
+**Attach terminal to container:** ``docker attach <container>``. Before attaching container must be runing/started.
+
+**Remove container:** ``docker rm <container_name>``
+
+
+
+
+
 
 
 

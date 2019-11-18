@@ -4,7 +4,7 @@
 - can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software
 
 # Setting Up Jenkins 
-  1. **Pull the jenkins image to the public registry:** ``docker pull jenkins``
+  1. **Pull the jenkins image to the local registry:** ``docker pull jenkins``
   2. **Verify that the jenkins image is downloaded:** ``docker images``
   3. **Create a container:** ``docker run --name jencon -p 8080:8080 -p 50000:50000 -v /Desktop/jenkins:/var/jenkins_home jenkins``
         - ``--name jencon``: names the container thus created as **jencon**

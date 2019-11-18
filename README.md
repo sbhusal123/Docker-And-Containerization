@@ -24,5 +24,5 @@
     - [Lifecycle Of Docker Container](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Docker-Containers.md#lifecycle-of-docker-container)
     - [Container commands](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Docker-Containers.md#container-commands)
 
-6. [Setting Up Jenkins](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Runing_jenkins_Server.md)
+6. [Example: Setting Up Jenkins](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Runing_jenkins_Server.md)
 

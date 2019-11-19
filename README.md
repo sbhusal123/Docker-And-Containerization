@@ -26,3 +26,7 @@
 
 6. [Example: Setting Up Jenkins](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/Runing_jenkins_Server.md)
 
+7. [Dockerfile](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/DockerFile-Intro.md#dockerfile)
+    - [Creating custom python images with dockerfile for django setup:
+](https://github.com/sbhusal123/Docker-And-Containerization/blob/master/DockerFile-Intro.md#creating--custom-python-images-with-dockerfile-for-django-setup)
+

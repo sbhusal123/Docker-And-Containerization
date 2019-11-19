@@ -32,7 +32,7 @@ RUN pip install -r requirements.txt
 
 #### 3. Build the image from the Dockerfile.
 - ``docker build -t djangoimage:1 .``
-    - ``-t djangoimage:<tag>``: names the image thus build as djangoimage with tag 1
+    - ``-t <name>:<tag>``: names the image thus build as djangoimage with tag 1
 
 
 

@@ -35,7 +35,7 @@ database:
 ```
 *Creates a **service** named database by using **redis** image.*
 
-**Runing docker-compose file:** ``docker-compose up`` or ``docker compose up -d`` to run in detached mode(in background).
+**Runing docker-compose file:** ``docker-compose up`` or ``docker-compose up -d`` to run in detached mode(in background).
 
 **Stopping app:** ``docker-compose down``
 

@@ -1,0 +1,23 @@
+version: "3"
+services:
+  db:
+    image: postgres:9.4-alpine
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: surya
+      POSTGRES_PASSWORD: surya
+      POSTGRES_DB: mydb
+    ports:
+      - "5432:5432"
+    restart: always
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
+    depends_on: 
+      - db
